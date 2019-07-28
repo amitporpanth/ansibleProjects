@@ -1,5 +1,5 @@
 ---
- - hosts: webservers
+ - hosts: ubuntu-user
    become: yes
    roles:
    - apache
